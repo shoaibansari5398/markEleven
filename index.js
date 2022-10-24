@@ -28,5 +28,11 @@ checkNumberButton.addEventListener('click',function getValues() {
     const dob = dateOfBirth.value;
     const number = luckyNumber.value;
     const sum = calculateSum(dob)
-    compareValues(sum,number)
+    if(dob&&number)
+    {
+        compareValues(sum,number)
+    }
+    else{
+        outputBox.innerText  = "Please enter both the fields";
+    }
 })
