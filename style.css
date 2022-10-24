@@ -1,0 +1,37 @@
+body{
+    background-color:blanchedalmond;
+    color:blue;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+input,label{
+    display: block;
+}
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    color:blue;;
+    background-color:aquamarine ;
+    border-color: blue;
+    padding: 00.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}
+#output-box{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(121, 12, 194);
+    font-weight:800;
+    /* margin: auto; */
+}
