@@ -5,7 +5,8 @@ const outputBox=document.querySelector('#output-box')
 
 
 function compareValues(sum,number) {
-    if(sum%number===0)
+    if (number>0) {
+        if(sum%number===0)
     {
         outputBox.innerText  = "Your Birthday is Lucky";
     }
@@ -13,6 +14,11 @@ function compareValues(sum,number) {
     {
         outputBox.innerText= "Your Birthday is not Lucky";
     }
+    }
+    else{
+        outputBox.innerText = "Invalid Input"
+    }
+    
 }
 
 function calculateSum(dob) {
