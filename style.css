@@ -15,6 +15,7 @@ input,label{
 input{
     margin-bottom: 0.5rem;
     width: 100%;
+    
 }
 #check-number{
     display: block;
